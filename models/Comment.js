@@ -9,11 +9,11 @@ Comment.init({
         allowNull: false
     },
     user_id: {
-        type: INTEGER,
+        type: DataTypes.INTEGER,
         allowNull: false
     },
     post_id: {
-        type: INTEGER,
+        type: DataTypes.INTEGER,
         allowNull: false
     }
 },{
