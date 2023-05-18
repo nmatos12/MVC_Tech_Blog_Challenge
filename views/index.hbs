@@ -1,0 +1,31 @@
+<header>
+    <div class="title">
+        <h1>techUP</h1>
+        <p>The best way to keep UP in tech!</p>
+    </div>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/login">Login</a>
+    </nav>
+</header>
+
+<section class="posts-body">
+    {{#each blogPost}}
+    <div class="post-wrapper">
+        <a href="/posts/{{id}}">
+            <div class="post">
+                <div class="post-title-and-info">
+                    <h4>{{title}}</h4>
+        </a>
+        <p>{{userName}}</p>
+    </div>
+    </div>
+    <div class="post-content">
+        <p>{{text}}</p>
+        <p class="timestamp2">{{updatedAt}}</p>
+    </div>
+    </div>
+    {{/each}}
+</section>

@@ -6,21 +6,20 @@
 
     <nav>
         <a href="/">Home</a>
-        <a href="/dashboard">Dashboard</a>
-        <a href="/login">Login</a>
     </nav>
 </header>
 
-<form class="login" method="POST" action="/login">
-    <h2 class="login">Login</h2>
+<form method="POST" class="login" action="/register">
+    <h2 class="reg-h2">Register</h2>
 
     <div class="input-container">
+
         <input class="input-field" type="text" placeholder="Email" name="email">
     </div>
 
-    <div class="input-container">
+    <div class="input-container input-container-reg">
         <input class="input-field" type="password" placeholder="Password" name="password">
     </div>
 
-    <button type="submit" class="btn">Login</button>
+    <button type="submit" class="btn">Register</button>
 </form>

@@ -1,0 +1,57 @@
+<header>
+    <div class="title">
+        <h1>techUP</h1>
+        <p>The best way to keep UP in tech!</p>
+    </div>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/login">Login</a>
+        <a href="/logout">Logout</a>
+    </nav>
+</header>
+
+<section class="posts-body">
+    <div class="post-wrapper">
+        <a href="/posts/{{id}}">
+            <div class="post">
+                <div class="post-title-and-info">
+                    <h2>{{title}}</h2>
+        </a>
+        <p>{{userName}}</p>
+    </div>
+    </div>
+
+    <div class="post-content">
+        <p>{{text}}</p>
+    </div>
+    </div>
+    <p class="timestamp">{{updatedAt}}</p>
+
+    <div class="comments">
+        <h3>Comments:</h3>
+        {{#each comments}}
+        <div class="comment-content">
+            <div class="just-comment">
+                <p>{{title}}</p>
+                <p>{{comment_text}}</p>
+            </div>
+            <div class="comment-data">
+                <p>{{user_email}}</p>
+                <p>{{updatedAt}}</p>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+    </div>
+
+    <form class='comment-form' action="/posts/{{this.id}}" method="POST">
+        <div class="comment-wrapper">
+            <h3 class="h3-comments">Leave a Comment:</h3>
+            <textarea placeholder="What would you like to say?" id="comment" name="comment_text" rows="3"></textarea>
+            <button type="submit" class="post-btn" type="button">Post</button>
+        </div>
+    </form>
+
+</section>
