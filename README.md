@@ -38,7 +38,13 @@ Links below provide a functionality of webpage.
 
 [Heroku Link](https://git.heroku.com/mvc-tech-blog-nm.git)
 
-![](public/images/MVC_login.png)
+![Image showing home page for tech blog site](public/images/Tech_Blog_Home.png)
+![Image showing login page for tech blog site](public/images/Tech_Blog_Login.png)
+![Image showing register page for tech blog site](public/images/Tech_Blog_Register.png)
+![Image showing post page for tech blog site](public/images/Tech_Blog_Posts.png)
+![Image showing post page for tech blog site](public/images/Tech_Blog_Posts2.png)
+![Image showing dashboard page for tech blog site](public/images/Tech_Blog_Dashboard.png)
+![Image showing comment page for tech blog site](public/images/Tech_Blog_Comment.png)
 
 ## Credits
 
@@ -62,6 +68,7 @@ Rutger University: https://git.bootcampcontent.com/Rutgers-University/RUT-VIRT-F
 - https://www.npmjs.com/package/moment
 - https://css-tricks.com/examples/BoxSizing/
 - https://www.npmjs.com/package/express-session
+- https://coolors.co/fffbfe-7a7d7d-d0cfcf-565254-ffffff
 
 
 ## License

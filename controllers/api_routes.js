@@ -11,7 +11,7 @@ router.get("/:id"), async (req, res) => {
             }
         })
         res.send(postId)
-    } else res.send ("Blog post cannot be found.")
+    } else res.send("Blog post cannot be found.")
 
 }
 

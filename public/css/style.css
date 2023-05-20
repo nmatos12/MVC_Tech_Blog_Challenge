@@ -1,8 +1,9 @@
 :root {
-    --primaryColor1: #ffffff;
-    --primaryColor2: #7951d8; 
-    --primaryColor3: #b79fdd;
-    --primaryColor4: #E7F6F2;
+    --primaryColor1: #dbdce0;
+    --primaryColor2: #565254; 
+    --primaryColor3: #7A7D7D;
+    --primaryColor4: #ffffff;
+    --primaryColor5: #000000;
 } 
 
 * {
@@ -67,6 +68,7 @@ nav a {
 
 .post-content {
     background-color: var(--primaryColor4);
+    color: var(--primaryColor5);
     padding: 10px;
 }
 
@@ -137,10 +139,6 @@ textarea {
     width: 50px;
 }
 
-.post-content {
-    color: var(--primaryColor1);
-}
-
 .comments {
     color: var(--primaryColor4);
     border-top: 2px solid var(--primaryColor4);
@@ -153,7 +151,7 @@ textarea {
 
 .comment-content {
     background-color: var(--primaryColor4);
-    color: var(--primaryColor1);
+    color: var(--primaryColor5);
     margin-bottom: 30px;
     border-radius: 5px;
 }
@@ -187,7 +185,7 @@ a h5 {
 }
 
 .just-comment {
-    background-color: var(--primaryColor3);
+    background-color: var(--primaryColor1);
     padding: 15px;
     border-radius: 5px;
 }

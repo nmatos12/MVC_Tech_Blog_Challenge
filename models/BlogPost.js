@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const db = require('../config/connection');
 
-class BlogPost extends Model {}
+class BlogPost extends Model { }
 
 BlogPost.init({
     title: {
@@ -17,7 +17,7 @@ BlogPost.init({
         type: DataTypes.TEXT,
         allowNull: false
     }
-},{
+}, {
     sequelize: db,
     modelName: 'post'
 })
