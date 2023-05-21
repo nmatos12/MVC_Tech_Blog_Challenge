@@ -36,7 +36,7 @@ JavaScript, MYSQL, Markdown
 
 Links below provide a functionality of webpage.
 
-[Heroku Link](https://git.heroku.com/mvc-tech-blog-nm.git)
+[Heroku Link](https://tech-blog-challenge-nm.herokuapp.com)
 
 ![Image showing home page for tech blog site](public/images/Tech_Blog_Home.png)
 ![Image showing login page for tech blog site](public/images/Tech_Blog_Login.png)
